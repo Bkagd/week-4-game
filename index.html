@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Crystal Game</title>
 </head>
 <body>
+    <body background="assets/images/background.jpg"></body>
     <div class="container">
         <div class="title">
-            <h1>Crystal Collector!</h1>
+            <h1><b>Crystal Collector!</b></h1>
         </div>
         <div class="info">
             <p>You will be given a random number at the start of the game.</p>
@@ -17,8 +20,25 @@
             <p>You will win the game by matching your total score to our random number.  You lose the game if your total score goes about our random number.</p>
             <p>The calue of each crystal is hidden from you until you click on it.</p>
             <p>Each time when the game starts, the game will change the values of each crystal.</p>
-            
         </div>
+        <div class="randomNum"></div>
+        <div class="winLoss">
+            <h3>Wins: </h3>
+            <br>
+            <h3>Losses: </h3>
+        </div>
+        <div class="button">
+            <button><img src="assets/images/blue_rupee.jpg"></button>
+            <button><img src="assets/images/green_rupee.png"></button>
+            <button><img src="assets/images/red_rupee.jpg"></button>
+            <button><img src="assets/images/yellow_rupee.png"></button>
+        </div>
+        <div class="scoreRead">
+            <h2>
+                <b>Your total score is:</b>
+            </h2>
+        </div>
+        <div class="score"></div>
     </div>
 </body>
 </html>

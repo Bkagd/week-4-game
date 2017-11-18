@@ -1,0 +1,76 @@
+.title {
+    background-color: orange;
+    width: 20%;
+    height: 45px;
+    padding: 20px 0px 0px 10px;
+    font-size: 25px;
+    margin: 10px 0px 10px 10px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.info {
+    background-color: white;
+    height: 400px;
+    width: 30%;
+    margin: 10px 0px 10px 5px;
+    border: 1px solid black; 
+    font-weight: bold;   
+}
+
+p {
+    height: 75px;
+    color: green;
+    padding: 10px 0px 0px 10px;    
+}
+
+.randomNum {
+    background-color: rgb(79, 243, 14);
+    height: 70px;
+    width: 15%;
+    margin: 10px;
+    padding: 5px 0px 0px 5px;    
+    float: left;
+    border: 1px solid black;    
+}
+
+.winLoss {
+    background-color: lightblue;
+    height: 70px;
+    width: 8%;
+    margin: 10px;
+    float: left;
+    padding: 5px 0px 0px 5px;
+    border: 1px solid black;  
+    font-weight: bold;  
+}
+
+.button {
+    clear: left;
+    margin-left: 10px;
+}
+
+.button img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;    
+}
+
+.scoreRead {
+    background-color: blueviolet;
+    height: 20px;
+    width: 15%;
+    margin: 10px;
+    padding-left: 5px;  
+    border: 1px solid black;  
+    font-weight: bold;  
+}
+
+.score {
+    background-color: blueviolet;
+    height: 70px;
+    width: 15%;
+    margin: 10px;
+    padding-left: 5px;
+    border: 1px solid black;    
+}
